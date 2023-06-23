@@ -56,6 +56,6 @@ Whether you're looking to personalize your conversational AI interactions, creat
 
 ## Contributing
 
-If you want to contribute, please check out the [roadmap](https://github.com/djm93dev/me_gpt/blob/ROADMAP.md), in the GitHub repo. You are welcome to read the [contributing document](https://github.com/djm93dev/me_gpt/blob/.github/CONTRIBUTING.md) for more information.
+If you want to contribute, please check out the [roadmap](https://github.com/djm93dev/me_gpt/blob/main/ROADMAP.md), in the GitHub repo. You are welcome to read the [contributing document](https://github.com/djm93dev/me_gpt/blob/main/.github/CONTRIBUTING.md) for more information.
 
 We are currently looking for more maintainers and community organizers to help us build the community around this project. If you are interested, email - daniel@danielmcdonald.dev if you are interested in an official role.
