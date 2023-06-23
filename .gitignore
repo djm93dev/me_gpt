@@ -1,0 +1,10 @@
+.env
+memory/
+venv/
+env/
+build
+dist
+me_gpt.egg-info
+setup.py
+me_gpt/__pycache__/
+me_gpt/test.py
