@@ -71,8 +71,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -e .
 ```
 
-4. Run the example script:
+4. Navigate to the src directory and run the example:
 ```bash
+cd src
 python examples/example.py
 ```
 
