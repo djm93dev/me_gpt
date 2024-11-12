@@ -2,60 +2,82 @@
 
 ME_GPT revolutionizes the way you interact with Chat GPT by introducing a powerful memory storage system and self-cloning functionality. With ME_GPT, you can store your cherished memories in a local vector database and leverage them to give Chat GPT the extraordinary ability to clone your unique personality and knowledge.
 
-## Quickstart:
+## Installation & Setup:
 
-### 1. Pip install the library
+### 1. Create and activate a Python virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
+### 2. Install the library
+```bash
 pip install me-gpt
 ```
 
-### 2. Create a new .env file
+### 3. Create a .env file in your project directory
+Create a new file named `.env` and add your OpenAI API key:
 ```
-cp .env.example .env
-```
-
-### 3. Add your OpenAI API key to the .env file
-```
-OPEN_AI_API_KEY = "API_KEY"
+OPEN_AI_API_KEY=your_api_key_here
 ```
 
-**OpenAI API key**
-
-Visit https://platform.openai.com/account/api-keys to get your OpenAI API key
+To get your OpenAI API key, visit: https://platform.openai.com/account/api-keys
 
 ### 4. Test the library
 ```python
-from me_gpt.ai import *
+from me_gpt import *
 
-# initial questions to help your clone get started:
+# Initial questions to help your clone get started:
 initial_questions()
 
-# have your clone ask you more questions:
+# Have your clone ask you more questions:
 more_questions(number_of_questions=3)
 
-# ask your clone a question and any instructions you'd like to give:
+# Ask your clone a question with custom instructions:
 question = "What is your Name?"
 instructions = "Give your answer with a pirate accent."
 print(prompt_memory(question, instructions))
 
-# chat with your clone in the terminal:
+# Chat with your clone in the terminal:
 chat_with_clone()
 ```
 
 ## Key Features:
 
-1. Memory Storage: Store memories, experiences, and information in a local vector database with ease. Capture the essence of your persona and knowledge, creating a treasure trove of data for Chat GPT to tap into.
+1. **Memory Storage**: Store memories, experiences, and information in a local vector database. Capture the essence of your persona and knowledge, creating a comprehensive data repository for Chat GPT to utilize.
 
-2. Self-Cloning Capability: Empower Chat GPT to clone your personality and knowledge using the memories stored in the vector database. Witness the remarkable transformation as Chat GPT adapts to your unique style, preferences, and expertise.
+2. **Self-Cloning Capability**: Enable Chat GPT to clone your personality and knowledge using the stored memories. Watch as Chat GPT adapts to your unique style, preferences, and expertise.
 
-3. Efficient Retrieval: Experience blazing-fast memory retrieval thanks to the vectorized storage system. Retrieve memories seamlessly, ensuring smooth and uninterrupted conversations with your cloned agent.
+3. **Efficient Retrieval**: Experience fast memory retrieval through the vectorized storage system. Retrieve memories seamlessly for smooth and natural conversations with your cloned agent.
 
-4. User-Friendly Integration: The repository offers a simple and intuitive integration process, allowing developers and enthusiasts to effortlessly incorporate ME_GPT into their existing Chat GPT projects.
+4. **User-Friendly Integration**: Simple and intuitive integration process for both developers and enthusiasts to incorporate ME_GPT into their Chat GPT projects.
 
-Whether you're looking to personalize your conversational AI interactions, create virtual replicas, or explore the potential of memory-enhanced language models, ME_GPT is your go-to solution. Unlock the power of memories and witness the fascinating capabilities of Chat GPT clones with this cutting-edge repository. Embark on a journey of unparalleled dialogue experiences and reshape the future of conversational AI.
+## Development Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/djm93dev/me_gpt.git
+cd me_gpt
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the package in development mode:
+```bash
+pip install -e .
+```
+
+4. Run the example script:
+```bash
+python examples/example.py
+```
 
 ## Contributing
 
-If you want to contribute, please check out the [roadmap](https://github.com/djm93dev/me_gpt/blob/main/ROADMAP.md), in the GitHub repo. You are welcome to read the [contributing document](https://github.com/djm93dev/me_gpt/blob/main/.github/CONTRIBUTING.md) for more information.
+We welcome contributions! Please check out our [roadmap](https://github.com/djm93dev/me_gpt/blob/main/ROADMAP.md) for planned features and areas where you can help. Read our [contributing document](https://github.com/djm93dev/me_gpt/blob/main/.github/CONTRIBUTING.md) for more information.
 
-We are currently looking for more maintainers and community organizers to help us build the community around this project. If you are interested, email - daniel@danielmcdonald.dev if you are interested in an official role.
+We're currently seeking maintainers and community organizers to help build the community around this project. If you're interested in an official role, please email daniel@danielmcdonald.dev.

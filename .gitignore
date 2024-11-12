@@ -8,3 +8,46 @@ me_gpt.egg-info
 setup.py
 me_gpt/__pycache__/
 me_gpt/test.py
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+memory/
+.env
+*.pickle.gz
+*.jsonl
+
+.pypirc
+build_and_publish.py

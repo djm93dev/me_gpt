@@ -1,4 +1,4 @@
-from me_gpt.ai import *
+from me_gpt import *
 
 # initial questions to help your clone get started:
 initial_questions()
