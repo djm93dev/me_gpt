@@ -8,7 +8,7 @@ For more information, please visit:
 https://github.com/djm93dev/me_gpt
 """
 
-__version__ = "0.1.5"
+__version__ = "0.1.6"
 __author__ = "Daniel McDonald"
 __author_email__ = "daniel@danielmcdonald.dev"
 __license__ = "MIT"
